@@ -13,4 +13,21 @@ class User < ApplicationRecord
       return false
     end
   end
+
+  def customer?
+    if self.role == "customer" 
+      return true 
+    else
+      return false
+    end
+  end
+
+  def admin?
+    if self.role == "admin" 
+      return true 
+    else
+      return false
+    end
+  end
+
 end
