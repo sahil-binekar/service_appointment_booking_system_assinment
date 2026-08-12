@@ -1,0 +1,2 @@
+class WorkingSlot < ApplicationRecord
+end

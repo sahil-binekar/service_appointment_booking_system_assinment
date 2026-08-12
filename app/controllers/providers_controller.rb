@@ -1,0 +1,3 @@
+class ProvidersController < UsersController
+
+end
